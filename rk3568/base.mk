@@ -15,7 +15,7 @@ FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/common-files)
 FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/default-settings)
 FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/emmc-tools)
 FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/r8125)
-FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/cleanup-kmods)
+FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/distfeeds)
 
 # U-boot
 # 
