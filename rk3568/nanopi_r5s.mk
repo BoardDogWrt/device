@@ -1,5 +1,5 @@
 #!/bin/bash
 
 . device/friendlyelec/rk3568/base.mk
-TARGET_SD_RAW_FILENAME=FriendlyWrt21_$(date +%Y%m%d)_NanoPi-R5S_arm64_sd.img
-TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt21_$(date +%Y%m%d)_NanoPi-R5S_arm64_eflasher.img
+TARGET_SD_RAW_FILENAME=friendlywrt_21.02_$(date +%Y%m%d)_nanopi-r5s_arm64_sd.img
+TARGET_EFLASHER_RAW_FILENAME=friendlywrt_21.02_$(date +%Y%m%d)_nanopi-r5s_arm64_eflasher.img

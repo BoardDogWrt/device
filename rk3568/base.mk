@@ -33,5 +33,5 @@ TARGET_KERNEL_DTB=resource.img
 FRIENDLYWRT_ROOTFS=build_dir/target-aarch64_generic_musl/root-rockchip
 FRIENDLYWRT_PACKAGE_DIR=bin/targets/rockchip/armv8/packages
 TARGET_IMAGE_DIRNAME=friendlywrt21
-TARGET_SD_RAW_FILENAME=FriendlyWrt21_$(date +%Y%m%d)_RK3558_arm64_sd.img
-TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt21_$(date +%Y%m%d)_RK3568_arm64_eflasher.img
+TARGET_SD_RAW_FILENAME=friendlywrt_21.02_$(date +%Y%m%d)_rk3568_arm64_sd.img
+TARGET_EFLASHER_RAW_FILENAME=friendlywrt_21.02_$(date +%Y%m%d)_rk3568_arm64_eflasher.img
