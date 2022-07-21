@@ -11,11 +11,12 @@ TARGET_OSNAME=friendlywrt
 TARGET_FRIENDLYWRT_CONFIG=rockchip
 FRIENDLYWRT_SRC=friendlywrt
 # FRIENDLYWRT_PATCHS+=(device/friendlyelec/rk3568/patches/0001-optimize-for-rk3568.patch)
-FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/common-files)
-FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/default-settings)
-FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/emmc-tools)
+FRIENDLYWRT_FILES+=(device/common/ntfs3)
+FRIENDLYWRT_FILES+=(device/common/default-settings)
+FRIENDLYWRT_FILES+=(device/common/emmc-tools)
+FRIENDLYWRT_FILES+=(device/common/busybox-top)
+FRIENDLYWRT_FILES+=(device/common/distfeeds)
 FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/r8125)
-FRIENDLYWRT_FILES+=(device/friendlyelec/rk3568/distfeeds)
 
 # U-boot
 # 
@@ -25,7 +26,7 @@ TARGET_UBOOT_CONFIG=nanopi5_defconfig
 # Kernel
 # 
 
-TARGET_KERNEL_CONFIG=nanopi5_linux_defconfig
+TARGET_KERNEL_CONFIG="nanopi5_linux_defconfig friendlywrt.config"
 TARGET_KERNEL_DTB=resource.img
 
 # Misc
