@@ -1,3 +1,3 @@
 #!/bin/bash
 
-. device/friendlyelec/rk3568/base.mk
+. device/boarddogwrt/rk3568/base.mk
