@@ -1,3 +1,3 @@
 #!/bin/bash
 
-. device/boarddogwrt/rk3568/base.mk
+. device/boarddog/rk3568/base.mk

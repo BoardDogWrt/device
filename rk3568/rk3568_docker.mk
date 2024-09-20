@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. device/boarddogwrt/rk3568/base.mk
+. device/boarddog/rk3568/base.mk
 
 TARGET_IMAGE_DIRNAME=boarddogwrt-docker
 TARGET_FRIENDLYWRT_CONFIG=rockchip-docker

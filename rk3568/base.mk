@@ -17,7 +17,7 @@ FRIENDLYWRT_FILES+=(device/common/nft-fullcone)
 FRIENDLYWRT_FILES+=(device/common/emmc-tools)
 FRIENDLYWRT_FILES+=(device/common/distfeeds)
 FRIENDLYWRT_FILES+=(device/common/default-settings)
-FRIENDLYWRT_FILES+=(device/boarddogwrt/rk3568/r8125)
+FRIENDLYWRT_FILES+=(device/boarddog/rk3568/r8125)
 
 # U-boot
 # 
